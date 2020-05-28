@@ -3,3 +3,64 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.form-control {
+  background-clip: padding-box;
+      background-color: #fff;
+      background-image: none;
+      color: #34394c;
+      font-size: 20px;
+      line-height: 1.25;
+      padding: 0.375rem 0.75rem;
+      display: block;
+      width: 100%;    
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+.ql-snow .ql-tooltip[data-mode=link]::before {
+  content: "Sisesta link:" !important;
+}
+
+.ql-snow .ql-tooltip.ql-editing a.ql-action::after {
+  content: 'Salvesta' !important;
+}
+
+.ql-snow .ql-tooltip::before {
+  content: "Külasta URLi:" !important;
+}
+
+.ql-snow .ql-tooltip a.ql-action::after {
+  content: "Muuda" !important;
+}
+
+.ql-snow .ql-tooltip a.ql-remove::before {
+  content: "Eemalda" !important;
+}
+
+.notes {
+  background: #F2F3F3;
+  border: 2px solid #DBDFE2;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.notes a {
+  color: #5d6071;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.notes a:hover {
+  color: #0083ba;
+  text-decoration: none;
+}
+
+.ql-toolbar.ql-snow {
+  border: 2px solid #DBDFE2;
+  border-radius: 4px;
+}
+
+.ql-container.ql-snow {
+  border: 2px solid #DBDFE2;
+  border-radius: 4px; 
+}
